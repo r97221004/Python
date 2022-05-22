@@ -1,0 +1,11 @@
+2022-05-21 20:31:26|   DEBUG|<ipython-input-1-7599314a3d5e>[:12]|This is appDoclog debug
+2022-05-21 20:39:52|   ERROR|<ipython-input-2-ea7b9ecafdef>[:12]|name 'abc' is not defined
+Traceback (most recent call last):
+  File "<ipython-input-2-ea7b9ecafdef>", line 8, in <module>
+    int(abc)
+NameError: name 'abc' is not defined
+2022-05-21 20:40:47|   ERROR|<ipython-input-3-eec24a609325>[:12]|invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "<ipython-input-3-eec24a609325>", line 8, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'
