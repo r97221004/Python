@@ -21,7 +21,7 @@ DEV = {
             'formatter': 'default',
             'class': 'logging.handlers.TimedRotatingFileHandler',
             'when': 'midnight',
-            'backupCount': '2',
+            'backupCount': 2,
             'filename': 'mod24/gnss.log',
         },
     },
